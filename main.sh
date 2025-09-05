@@ -3,6 +3,8 @@
 declare -r binutils_tarball='/tmp/binutils.tar.xz'
 declare -r binutils_directory='/tmp/binutils'
 
+sudo apt-get install --assume-yes 'gettex'
+
 git \
 	clone \
 	--depth '1' \
